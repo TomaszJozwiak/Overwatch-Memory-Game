@@ -1,0 +1,130 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #FF9900;
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+}
+
+a:link    { color: #FF9900; text-decoration: none; }
+a:visited { color: #FF9900; }
+a:active  { color: #FF9900; }
+a:hover   { color: #FFFF00; }
+
+h1
+{
+	font-size: 64 px;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.board
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cardA
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta.png");
+	border: 6px solid #FFFF66;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta.png");
+	border: 6px solid #6699FF;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(80%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border: 6px solid #FFFF66;
+	filter: brightness(100%);
+}
+
+.notification
+{
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+.button
+{
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.button:first-child
+{
+	margin-left: 0px;
+}
+
+
+input[type=button]
+{
+	font-family: 'Righteous', cursive;
+	width: 300px;
+	background-color: #FF9900;
+	font-size:20px;
+	color: #26282E;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=button]:hover
+{
+	background-color: #FFFF00;
+}
+
+.reload
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 100px;
+	padding: 15px 30px;
+	background-color: #FF9900;
+    letter-spacing: 2px;
+	color: #26282E;
+	border-radius: 5px;
+}
+ 
+.reload:hover
+{
+    background-color: #FFFF00;
+    cursor: pointer;
+}
